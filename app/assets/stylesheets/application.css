@@ -26,3 +26,8 @@
 .fa-puzzle-piece {
   padding-bottom: 1em;
 }
+
+.row {
+  padding-top: 1em;
+  color: lightgray;
+}

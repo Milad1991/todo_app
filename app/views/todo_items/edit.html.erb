@@ -1,6 +1,16 @@
+<div class="container">
+
+
 <h1>Editing Todo Item</h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @todo_item %> |
-<%= link_to 'Back', todo_items_path %>
+<%= link_to todo_items_path do %>
+  <i class="fa fa-search fa-2x"> Show</i>
+<% end %>
+<br>
+<br>
+<%= link_to todo_items_path do %>
+  <i class="fa fa-chevron-circle-left fa-2x"> Back</i>
+<% end %>
+</div>
